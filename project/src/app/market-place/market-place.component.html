@@ -2,5 +2,5 @@
 <div *ngFor="let album of albums | async" (click)="goToDetailPage(album)" class="panel panel-default">
   <div class="panel-body">
     <h2><em>{{album.title}}</em> by {{album.artist}}</h2>
-    <h3>{{album.$key}}</h3>
   </div>
+</div>
