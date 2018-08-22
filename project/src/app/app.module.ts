@@ -9,6 +9,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { MarketPlaceComponent } from './market-place/market-place.component';
 import { AlbumComponent } from './album/album.component';
+import { AlbumDetailComponent } from './album-detail/album-detail.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AlbumComponent } from './album/album.component';
     WelcomeComponent,
     AboutComponent,
     MarketPlaceComponent,
-    AlbumComponent
+    AlbumComponent,
+    AlbumDetailComponent
   ],
   imports: [
     BrowserModule,
