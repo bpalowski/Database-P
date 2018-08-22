@@ -14,6 +14,7 @@ import { MarketPlaceComponent } from './market-place/market-place.component';
 import { AlbumComponent } from './album/album.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { AdminComponent } from './admin/admin.component';
+import { EditAlbumComponent } from './edit-album/edit-album.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     MarketPlaceComponent,
     AlbumComponent,
     AlbumDetailComponent,
-    AdminComponent
+    AdminComponent,
+    EditAlbumComponent
   ],
   imports: [
     BrowserModule,
