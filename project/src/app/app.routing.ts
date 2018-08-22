@@ -5,7 +5,7 @@ import { MarketPlaceComponent } from './market-place/market-place.component';
 import { AlbumComponent } from './album/album.component';
 import { AboutComponent } from './about/about.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
-
+import { AdminComponent }   from './admin/admin.component';
 
 const appRoutes: Routes = [
 {
@@ -27,6 +27,10 @@ const appRoutes: Routes = [
 {
   path: 'albums/:id',
   component: AlbumDetailComponent
+},
+{
+  path: 'admin',
+  component: AdminComponent
 }
  ];
 
